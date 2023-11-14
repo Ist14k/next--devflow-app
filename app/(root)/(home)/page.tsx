@@ -4,7 +4,7 @@ import { UserButton } from '@clerk/nextjs';
 const Home = () => {
   return (
     <div>
-      <h1>Root Page</h1>
+      <h1 className="h1-bold">This is a pice of text!</h1>
       <UserButton afterSignOutUrl="/" />
     </div>
   );
