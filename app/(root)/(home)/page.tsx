@@ -1,11 +1,9 @@
 import React from 'react';
-import { UserButton } from '@clerk/nextjs';
 
 const Home = () => {
   return (
     <div>
-      <h1 className="h1-bold">This is a pice of text!</h1>
-      <UserButton afterSignOutUrl="/" />
+      <h1 className="h1-bold text-blue-200">This is a pice of text!</h1>
     </div>
   );
 };
