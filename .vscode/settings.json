@@ -8,6 +8,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Grotesk"],
+  "cSpell.words": ["darkgradient", "Grotesk", "upvotes"],
   "prettier.printWidth": 110
 }

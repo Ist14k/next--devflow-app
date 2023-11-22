@@ -53,9 +53,6 @@ const config: Config = {
       'auth-dark': "url('/assets/images/auth-dark.png')",
       'auth-light': "url('/assets/images/auth-light.png')",
     },
-    screens: {
-      xs: '420px',
-    },
     keyframes: {
       'accordion-down': {
         from: {
@@ -80,5 +77,6 @@ const config: Config = {
     },
   },
   plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
+  darkMode: 'class',
 };
 export default config;
