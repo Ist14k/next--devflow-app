@@ -28,11 +28,11 @@ const Theme = () => {
             <Image src="/assets/icons/moon.svg" alt="moon" width={20} height={20} className="active-theme" />
           )}
         </MenubarTrigger>
-        <MenubarContent className="absolute right-[-3rem] mt-3 min-w-[120px] rounded border py-2 dark:border-dark-200 dark:bg-dark-300">
+        <MenubarContent className="absolute right-[-3rem] mt-3 min-w-[120px] rounded border bg-white py-2 dark:border-dark-200 dark:bg-dark-300">
           {themes.map(el => (
             <MenubarItem
               key={el.value}
-              className="flex cursor-pointer items-center gap-4 px-2.5 py-2 dark:focus:bg-dark-400"
+              className="flex cursor-pointer items-center gap-4 px-2.5 py-2 focus:bg-slate-100 dark:focus:bg-dark-400"
               onClick={() => {
                 setMode(el.value);
 

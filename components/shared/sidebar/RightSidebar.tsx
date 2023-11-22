@@ -5,22 +5,22 @@ import Tag from '../elements/Tag';
 
 function RightSidebar() {
   const randomQuestions = [
-    { _id: 1, question: 'How do CSS preprocessors streamline efficient web development workflows?' },
+    { _id: '1', question: 'How do CSS preprocessors streamline efficient web development workflows?' },
     {
-      _id: 2,
+      _id: '2',
       question: 'What factors distinguish mobile responsiveness optimization from desktop optimization?',
     },
-    { _id: 3, question: 'Contrast client-side scripting and server-side scripting in web development.' },
-    { _id: 4, question: 'Why is semantic HTML crucial for accessibility and SEO?' },
-    { _id: 5, question: 'Explain the significance of Git in collaborative web development projects.' },
+    { _id: '3', question: 'Contrast client-side scripting and server-side scripting in web development.' },
+    { _id: '4', question: 'Why is semantic HTML crucial for accessibility and SEO?' },
+    { _id: '5', question: 'Explain the significance of Git in collaborative web development projects.' },
   ];
 
   const randomTags = [
-    { _id: 1, name: 'JavaScript', totalQuestions: 5 },
-    { _id: 1, name: 'React', totalQuestions: 4 },
-    { _id: 1, name: 'Next', totalQuestions: 4 },
-    { _id: 1, name: 'TypeScript', totalQuestions: 3 },
-    { _id: 1, name: 'Angular', totalQuestions: 1 },
+    { _id: '1', name: 'JavaScript', totalQuestions: 5 },
+    { _id: '2', name: 'React', totalQuestions: 4 },
+    { _id: '3', name: 'Next', totalQuestions: 4 },
+    { _id: '4', name: 'TypeScript', totalQuestions: 3 },
+    { _id: '5', name: 'Angular', totalQuestions: 1 },
   ];
   const renderedQuestions = randomQuestions.map(el => {
     return (
